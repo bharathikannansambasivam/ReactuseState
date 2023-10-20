@@ -7,7 +7,7 @@ const UseStateDemo = (props) => {
 
   const [incHeight, setHeight] = useState(height);
   function handleClick() {
-    setHeight(incHeight + 1);
+    setHeight(incHeight + 4);
   }
   console.log(incHeight);
   let message = "I Need Some Water🥹";
